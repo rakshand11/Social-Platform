@@ -39,7 +39,7 @@ app.use("/comment", commentRouter);
 app.use("/follow", followRouter);
 app.get("/health", (req: Request, res: Response) => {
   res.status(200).json({
-    msg: "okay",
+    msg: "How are you ajay mama , say hello to laddo and gunnu",
   });
 });
 
